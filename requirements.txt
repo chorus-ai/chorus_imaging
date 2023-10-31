@@ -1,0 +1,4 @@
+pylibjpeg
+pylibjpeg-libjpeg
+pydicom
+python-gdcm
