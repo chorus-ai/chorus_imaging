@@ -13,6 +13,7 @@ This tool is designed to de-identify DICOM files by removing or patients health 
 - Logging of de-identification process.
 - Multiprocessing for increased performance.
 - Pixel redaction to PHI information burned in images.
+- Identify Secondary Capture Images.
 - Mapping DICOM image elements to the OMOP data model for observational research.
 
 
@@ -56,7 +57,7 @@ def replace_identifiers_with_pseudonyms(dicom_file):
 
 ```
 
-https://github.com/chorus-ai/deidentification_tools/blob/main/dicom_header_anonymized.ipynb
+    https://github.com/chorus-ai/deidentification_tools/blob/main/dicom_header_anonymized.ipynb
 
 
 ### Retain Certain Tags Function
@@ -127,9 +128,18 @@ def batch_process_directory_with_multiprocessing(input_directory, output_directo
         pool.map(deidentify_file, file_tuples)
 ```
 
-### Pixel Redaction Function
+### Pixel Redaction Demo
 
-https://github.com/chorus-ai/deidentification_tools/blob/main/deid_burnt_in_text_in_DICOM.ipynb
+    https://github.com/chorus-ai/deidentification_tools/blob/main/deid_burnt_in_text_in_DICOM.ipynb
+
+
+### Identify Secondary Capture Images 🕵️ 
+
+- **Conversion Type Check:**  
+  Look for the DICOM tag `(0008,0064)`. If the Conversion Type is set to `WSD` (Workstation), the image is likely a secondary capture.
+
+- **SOP Class UID Check:**  
+  Examine the DICOM tag `(0008,0016)` for the SOP Class UID. If it corresponds to the UID for Secondary Capture Image Storage, the image is identified as a secondary capture.
 
 
 ### Mapping dicom elements to OMOP 
