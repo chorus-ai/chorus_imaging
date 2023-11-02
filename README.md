@@ -147,9 +147,7 @@ def batch_process_directory_with_multiprocessing(input_directory, output_directo
 In progress...
 
 
-## Contributing
-
-#### Reporting Issues
+## Reporting Issues
 
 Before submitting a pull request, please ensure you've searched for existing issues that may already address the problem you're encountering. If an issue doesn't already exist, you can create a new one:
 
@@ -160,16 +158,8 @@ Before submitting a pull request, please ensure you've searched for existing iss
 5. Attach any relevant screenshots or logs.
 6. Submit the issue.
 
-#### Making Contributions
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-branch`
-3. Make changes and commit: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin feature-branch`
-5. Open a pull request
-
-   
-#### Contact
+## Contact
 
 To request access to contribution or for further queries: 
 
