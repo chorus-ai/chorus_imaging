@@ -73,6 +73,8 @@ def retain_certain_tags(dicom_file, tags_to_retain):
 
 ```python
 import os
+from pydicom.filereader import dcmread
+from pydicom.filewriter import dcmwrite
 
 def batch_process_directory(input_directory, output_directory):
     for filename in os.listdir(input_directory):
