@@ -167,12 +167,15 @@ To request access to contribution or for further queries:
 
 [dbold@emory.edu](mailto:dbold@emory.edu)
 
-## Disclaimer
-
-This tool is provided as-is without any guarantees. Please ensure compliance with relevant regulations and standards when using this tool for de-identification.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for more details.
+
+
+## Acknowledgements
+
+
+in progress...
 
 
