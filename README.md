@@ -28,7 +28,7 @@ python -m spacy download en_core_web_lg
 
 ## Python Code Snippets
 
-### Remove atient Identifiers Function
+### Remove Patient Identifiers Function
 
 ```python
 def remove_identifiers(dicom_file):
