@@ -139,7 +139,7 @@ def batch_process_directory_with_multiprocessing(input_directory, output_directo
   Look for the DICOM tag `(0008,0064)`. If the Conversion Type is set to `WSD` (Workstation), the image is likely a secondary capture.
 
 - **SOP Class UID Check:**  
-  Examine the DICOM tag `(0008,0016)` for the SOP Class UID=1.2.840.10008.5.1.4.1.1.7 for Secondary Capture Image Storage, the image is identified as a secondary capture.
+  Examine the DICOM tag `(0008,0016)` for the `SOP Class UID=1.2.840.10008.5.1.4.1.1.7` for Secondary Capture Image Storage, the image is identified as a secondary capture.
 
 
 ### Mapping dicom elements to OMOP 
