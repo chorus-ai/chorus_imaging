@@ -70,7 +70,7 @@ def retain_certain_tags(dicom_file, tags_to_retain):
             del dicom_file[tag]
 ```
 
-### Batch processing of multiple DICOM files
+### Batch processing of multiple DICOM files function
 
 ```python
 import os
@@ -96,7 +96,7 @@ def log_deidentification(input_file, output_file):
     logging.info(f"De-identified file: {input_file} -> {output_file}")
 ```
 
-### Multiprocessing with batch files
+### Multiprocessing with batch files function
 
 ```python
 import os
