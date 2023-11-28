@@ -2,3 +2,5 @@ pylibjpeg
 pylibjpeg-libjpeg
 pydicom
 python-gdcm
+pandas
+openpyxl
