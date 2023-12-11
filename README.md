@@ -42,7 +42,9 @@ def remove_identifiers(dicom_file):
         if tag in dicom_file:
             del dicom_file[tag]
 ```
-
+    
+[Jupiter notebook example](https://github.com/chorus-ai/chorus_imaging/blob/main/dicom_deid_by_tags.ipynb)
+    
 ### Replace Identifiers with Pseudonyms Function
 
 ```python
@@ -57,7 +59,7 @@ def replace_identifiers_with_pseudonyms(dicom_file):
 
 ```
 
-    https://github.com/chorus-ai/deidentification_tools/blob/main/dicom_header_anonymized.ipynb
+[Jupiter notebook example](https://github.com/chorus-ai/deidentification_tools/blob/main/dicom_header_anonymized.ipynb)
 
 
 ### Retain Certain Tags Function
@@ -130,7 +132,7 @@ def batch_process_directory_with_multiprocessing(input_directory, output_directo
 
 ### Pixel Redaction Demo
 
-    https://github.com/chorus-ai/deidentification_tools/blob/main/deid_burnt_in_text_in_DICOM.ipynb
+[Jupiter notebook example for redact burned in pixel](https://github.com/chorus-ai/deidentification_tools/blob/main/deid_burnt_in_text_in_DICOM.ipynb)
 
 
 ### Identify Secondary Capture Images 🕵️ 
